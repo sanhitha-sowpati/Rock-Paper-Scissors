@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rock.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p class="heading" >Rock Paper Scissors</p>
+    <div class="buttons-case">
+        <button class="option">&#9994;</button>
+        <button class="option">&#129306;</button>
+        <button class="option">&#9996;</button>
+    </div>
+    <div class="scores">
+        <div class="box">
+            <p class="text">You</p>
+            <p id="yourScore" class="text">0</p>
+        </div>
+        <div class="box">
+            <p class="text">Computer</p>
+            <p id="compScore" class="text">0</p>
+        </div>
+    </div>
+    <div class="info">Select an option</div>
+    <p class="winner"></p>
+    <script src="rock.js"></script>
+</body>
+</html>

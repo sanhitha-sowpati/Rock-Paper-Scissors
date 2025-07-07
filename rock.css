@@ -1,0 +1,75 @@
+*{
+    align-items: center;
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+body{
+    background-color: beige;
+}
+.heading{
+    font-size: 8vmin;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-shadow: 6px 6px 6px rgb(245, 207, 160);
+}
+
+button{
+    align-items: center;
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 60px;
+    border: 1px solid #000;
+    margin: 20px;
+    font-size: 10vmin;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: bisque;
+}
+.buttons-case{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.scores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vmin;
+}
+.box{
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin-right: 5px;
+
+}
+.text{
+    text-align: center;
+}
+.info{
+    color: grey;
+    background-color: rgb(255, 231, 200);
+    font-size: 5vmin;
+    height: 40px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+}
+.winner{
+    font-size: 5vmin;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
